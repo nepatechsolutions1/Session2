@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class HelloWorld {
 	public static void main(String[] args) {
 		
-		// >50 - third
-		// 51 - 60 - second
-		// 61 - 80 - first
-		// 81- 100 - distinction
+		// if the average score >=90% =>grade=A
+		// if the average score >= 70% and <90% => grade=B
+		// if the average score>=50% and <70% =>grade=C
+		// if the average score<50% =>grade=F 
 		
 		System.out.print("Please input your name: ");
 		
