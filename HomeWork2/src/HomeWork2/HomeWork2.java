@@ -43,7 +43,7 @@ public class HomeWork2 {
 	else if((AverageScore >=50) && (AverageScore <70)){
 		System.out.println( "You still need to work harder next time. Your Grade is  C");
 	}			
-	else if(AverageScore <50) {
+	else (AverageScore <50) {
 		System.out.println("You really need to work extra hard next time . Your Grade is  F");
 		
 		
